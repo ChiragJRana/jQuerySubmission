@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery Submission</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    
+</head>
+<body style="font-family:Verdana;">
+    <div  class="image">
+        <img id="image" src="" alt=""   >
+    </div>
+    <div class="white-box">
+        <h1 style="text-align: center;">Welcome to your New Business </h1>
+        <h3 style="text-align: center;">Add A Product</h3>
+            <form action="">     
+                <div  class="rightpart">
+                    Product Name: <input type="text" name="name" id="Pname" placeholder="Enter the prooduct name">
+                    <span id="name"></span><br>
+                    Product Details: <input type="text" name="details"  height="200px;"><br>
+                    Product Worth($): <input type="number" name="" id="worth"><br>
+                    Username: <input type="text" name="" id="username"><br>
+                    Password: <input type="password" name="" id="Userpassword"><br>
+                    Product Type: <select name="" id="selection">
+                        <option value="electronics" >Electronics</option>
+                        <option value="furniture" >Furniture</option>
+                        <option value="clothes" >Clothes</option>
+                    </select><br>
+                    Enter the image:<input type="file" id="img" name="img" accept="image/*"><br>
+                </div>
+
+            <div  id="selected">
+                <div class="clothes" id="types_of_colours">
+                    <input type="checkbox" id="Black" name="Black">
+                    <label for="Black"><strong>Black</strong></label><br>
+                    <input type="checkbox" id="Blue" name="Blue">
+                    <label for="Blue"><strong>Blue</strong></label><br>
+                    <input type="checkbox" id="Green" name="Green">
+                    <label for="Blue"> <strong>Green</strong></label><br>
+                    <input type="checkbox" id="Yellow" name="Yellow">
+                    <label for="Yellow"> <strong>Yellow</strong></label><br>
+                    <input type="checkbox" id="Red" name="Red">
+                    <label for="Red"><strong>Red</strong></label><br><br>  
+                </div>
+
+                <div class="electronics" id="type_of_elctron">
+                    <input type="checkbox" name="Mobile" id="mobile">
+                    <label for="mobile"><strong>Mobile</strong></label><br>
+                    <input type="checkbox" name="television" id="television">
+                    <label for="television"><strong>Television</strong></label><br>
+                    <input type="checkbox" name="latops" id="laptops">
+                    <label for="laptops"><strong>Laptops</strong></label><br>
+                    <input type="checkbox" name="software" id="software">
+                    <label for="software"><strong>Software</strong></label><br>
+                    <input type="checkbox" name="Misc" id="Misc">
+                    <label for="Misc"><strong>Miscellaneous</strong></label><br><br>
+                </div>
+                <div class="furniture" id="types_of_furniture">
+                    <input type="checkbox" name="sofa" id="sofa">
+                    <label for="sofa"><strong>Sofa</strong></label><br>
+                    <input type="checkbox" name="cupboard" id="cupboard">
+                    <label for="cupboard"><strong>Cupboard</strong></label><br>
+                    <input type="checkbox" name="chairs" id="chairs">
+                    <label for="chairs"><strong>Chairs</strong></label><br>
+                    <input type="checkbox" name="doors" id="doors">
+                    <label for="doors"><strong>Doors</strong></label><br><br>
+                </div>
+            </div>
+                <button type="submit">Submit</button>
+            </form>
+
+    </div>
+    <div id="greetings" style="display : none">
+        <h1>
+            Congratualations!! 
+        </h1>
+    </div>
+</body>
+</html>
